@@ -1,0 +1,27 @@
+timestamp,text,emotion,goals,goal,completed
+2025-11-27 16:39:13.859811,"I feel really unmotivated and down today
+",sadness,Listen to a song that usually lifts your mood. | Send a supportive message to a friend.,,
+2025-11-27 16:41:56.980554,I am so happy and productive today,joy,Plan a small reward for yourself later this week. | Capture this feeling: journal 3 good things that happened today.,,
+2025-11-27 16:42:32.847830,"i am angry with one of my friends
+",anger,"Go for a brisk 15-minute walk. | Take 10 deep breaths, slowly.",,
+2025-11-27 16:43:06.564686,"i am feeling so jealous
+",anger,"Go for a brisk 15-minute walk. | Take 10 deep breaths, slowly.",,
+2025-11-27 16:43:55.524166,"i'm in somwhat fearful situation
+",fear,Write down the specific worry and a tiny step to reduce it. | Talk to someone you trust about what’s worrying you.,,
+2025-11-27 16:45:04.389094,I got 100% mark for my exam today,joy,Plan a small reward for yourself later this week. | Share something positive with someone you care about.,,
+2025-11-27 16:45:47.891632,I played with my cousin a lot and we are so happyy,joy,Share something positive with someone you care about. | Plan a small reward for yourself later this week.,,
+2025-11-27 16:46:05.482634,My mother blamed me,sadness,Send a supportive message to a friend. | Listen to a song that usually lifts your mood.,,
+2025-11-27 21:55:34.714967,I am having a terrible day today,fear,,Write down the specific worry and a tiny step to reduce it.,True
+2025-11-27 21:55:34.714967,I am having a terrible day today,fear,,Talk to someone you trust about what’s worrying you.,True
+,I feel overwhelmed and stressed,surprise,,Review your goals for the week and pick one easy win.,True
+,I feel overwhelmed and stressed,surprise,,Choose one small task you’ve been postponing and complete it.,True
+,I am feeling so much happyyy,joy,,Plan a small reward for yourself later this week.,True
+,I am feeling so much happyyy,joy,,Capture this feeling: journal 3 good things that happened today.,True
+,"my country is having a very bad weather and people are facing struggles and I'm feeling so sorry for them
+",sadness,,Listen to a song that usually lifts your mood.,False
+,"my country is having a very bad weather and people are facing struggles and I'm feeling so sorry for them
+",sadness,,Send a supportive message to a friend.,False
+,i had a joyful day today,joy,,Plan a small reward for yourself later this week.,False
+,i had a joyful day today,joy,,Share something positive with someone you care about.,False
+,I am feeling so much happy right now,joy,,Capture this feeling: journal 3 good things that happened today.,False
+,I am feeling so much happy right now,joy,,Plan a small reward for yourself later this week.,False

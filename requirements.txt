@@ -1,0 +1,10 @@
+streamlit
+matplotlib
+pandas
+transformers
+torch
+requests
+SpeechRecognition
+gTTs
+streamlit-mic-recorder
+pydub
