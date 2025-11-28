@@ -109,3 +109,25 @@ ai_life_coach/
 ├── data/
 │   └── history.csv        # Runtime history log (auto-created)
 └── README.md
+```
+---
+
+## 🚀 Quick Start: How to Run the App
+
+### 1️⃣ Prerequisites
+
+You need:
+
+- **Python 3.9+**
+- **Git** (optional, for cloning)
+- **Ollama** (for running the local LLM)
+- A machine running **Windows, macOS, or Linux**
+
+#### Install Ollama
+
+1. Download from: https://ollama.com  
+2. Install and open Ollama (it runs as a background service).
+3. Pull a model you want to use (example: `phi3`):
+
+   ```bash
+   ollama pull phi3
