@@ -148,13 +148,15 @@ You need:
 ### 2️⃣ Get the Project Code
 
 Option A – Using Git (recommended)
+```
 git clone https://github.com/YOUR_USERNAME/ai-life-coach.git
 cd ai-life-coach
+```
 
 Option B – Download ZIP
 
-Go to your GitHub repository page.
+1. Go to your GitHub repository page.
 
-Click “Code” → “Download ZIP”.
+2. Click “Code” → “Download ZIP”.
 
-Extract the ZIP and open a terminal/command prompt inside the extracted folder
+3. Extract the ZIP and open a terminal/command prompt inside the extracted folder
