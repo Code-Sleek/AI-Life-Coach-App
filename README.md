@@ -112,6 +112,19 @@ ai_life_coach/
 ```
 ---
 
+### ⚠️ Notes & Limitations
+
+This app is not a substitute for professional mental health support.
+
+Speech recognition relies on the Google Web Speech API, so:
+- It requires internet access.
+- Accuracy depends on audio quality, accent, background noise, etc.
+
+LLM responses depend on:
+- The model you choose in Ollama (phi3, llama3, etc.)
+- The prompt defined in chat_logic.py.
+
+---
 ## 🚀 Quick Start: How to Run the App
 
 ### 1️⃣ Prerequisites
@@ -131,3 +144,17 @@ You need:
 
    ```bash
    ollama pull phi3
+
+### 2️⃣ Get the Project Code
+
+Option A – Using Git (recommended)
+git clone https://github.com/YOUR_USERNAME/ai-life-coach.git
+cd ai-life-coach
+
+Option B – Download ZIP
+
+Go to your GitHub repository page.
+
+Click “Code” → “Download ZIP”.
+
+Extract the ZIP and open a terminal/command prompt inside the extracted folder
