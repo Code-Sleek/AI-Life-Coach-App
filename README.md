@@ -148,10 +148,11 @@ You need:
 ### 2️⃣ Get the Project Code
 
 Option A – Using Git (recommended)
-```
-git clone https://github.com/YOUR_USERNAME/ai-life-coach.git
-cd ai-life-coach
-```
+   ```bash
+
+   git clone https://github.com/YOUR_USERNAME/ai-life-coach.git
+   cd ai-life-coach
+   ```
 
 Option B – Download ZIP
 
@@ -160,3 +161,47 @@ Option B – Download ZIP
 2. Click “Code” → “Download ZIP”.
 
 3. Extract the ZIP and open a terminal/command prompt inside the extracted folder
+
+### 3️⃣ Create and Activate a Virtual Environment
+
+This keeps dependencies isolated.
+
+
+## Windows (PowerShell or CMD)
+   ```bash
+
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+## macOS / Linux (bash/zsh)
+   ```bash
+
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+You should see (venv) in your terminal prompt after activation.
+
+### 4️⃣ Install Dependencies
+
+With the virtual environment active, run:
+
+```bash
+
+pip install -r requirements.txt
+```
+
+This installs:
+
+- streamlit
+- pandas
+- transformers
+- torch
+- requests
+- SpeechRecognition
+- gTTS
+- streamlit-mic-recorder
+- pydub
+
+and other needed packages
