@@ -236,7 +236,9 @@ The app:
 4. Scroll down to:
 
 📈 Recent Check-ins – see your latest entries.
+
 📊 Mood Overview (last 7 days) – bar chart of emotions.
+
 ✅ Goal Completion – mark goals as done using checkboxes.
 
 ---
