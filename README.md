@@ -110,21 +110,6 @@ ai_life_coach/
 │   └── history.csv        # Runtime history log (auto-created)
 └── README.md
 ```
----
-
-### ⚠️ Notes & Limitations
-
-This app is not a substitute for professional mental health support.
-
-Speech recognition relies on the Google Web Speech API, so:
-- It requires internet access.
-- Accuracy depends on audio quality, accent, background noise, etc.
-
-LLM responses depend on:
-- The model you choose in Ollama (phi3, llama3, etc.)
-- The prompt defined in chat_logic.py.
-
----
 ## 🚀 Quick Start: How to Run the App
 
 ### 1️⃣ Prerequisites
@@ -167,14 +152,14 @@ Option B – Download ZIP
 This keeps dependencies isolated.
 
 
-## Windows (PowerShell or CMD)
+#### Windows (PowerShell or CMD)
    ```bash
 
    python -m venv venv
    venv\Scripts\activate
    ```
 
-## macOS / Linux (bash/zsh)
+#### macOS / Linux (bash/zsh)
    ```bash
 
    python3 -m venv venv
@@ -205,3 +190,67 @@ This installs:
 - pydub
 
 and other needed packages
+
+### 5️⃣ Ensure Ollama is Running
+
+Make sure the Ollama service/app is running in the background and that you pulled a model:
+```bash
+ollama pull phi3
+```
+
+| If you change the model name in chat_logic.py (e.g., to llama3), make sure you also ollama pull llama3.
+
+### 6️⃣ Run the Streamlit App
+
+From the project root:
+
+```bash
+streamlit run app.py
+```
+
+Streamlit will open a browser window (or give you a local URL such as):
+```
+http://localhost:8501
+```
+
+If it does not open automatically, copy the URL from the terminal into your browser.
+
+### 7️⃣ Using the App
+
+1.  Choose Input Mode
+
+- Text: Type how you feel in the text area.
+- Voice: Use the microphone button to record your voice; the app will transcribe it to text.
+
+2. Optional: Audio Response
+
+- Tick “Play coach response as audio” if you want to hear the coach reply using TTS.
+
+3. Click “Reflect & Get Goals”
+
+The app:
+- Detects your emotion
+- Generates 1–2 small goals
+- Uses the local LLM (phi3) to create a short, energetic response
+
+4. Scroll down to:
+
+📈 Recent Check-ins – see your latest entries.
+📊 Mood Overview (last 7 days) – bar chart of emotions.
+✅ Goal Completion – mark goals as done using checkboxes.
+
+---
+
+### ⚠️ Notes & Limitations
+
+This app is not a substitute for professional mental health support.
+
+Speech recognition relies on the Google Web Speech API, so:
+- It requires internet access.
+- Accuracy depends on audio quality, accent, background noise, etc.
+
+LLM responses depend on:
+- The model you choose in Ollama (phi3, llama3, etc.)
+- The prompt defined in chat_logic.py.
+
+---
